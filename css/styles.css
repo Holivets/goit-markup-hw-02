@@ -68,7 +68,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero .button {
+.order-button {
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -77,12 +77,9 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.hero .button:focus {
-  /* колір для фокусу задамо пізнше?*/
-}
 /* секція переваг */
 /* уявний заголовок-приховав білим, Саша сказав пізніше пояснить як краще це зробити */
-.advantages .fake-title {
+.fake-title {
   color: var(--secondary-title-color);
 }
 .advantages-list .title {
@@ -135,7 +132,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* секція постійних клієнтів */
+/* секція постійних клієнтів-тут йдуть картинки */
 
 /* footer */
 .footer {
@@ -176,6 +173,11 @@ a {
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
   font-family: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
@@ -186,3 +188,48 @@ a {
 }
 
 /* стилі для portfolio.html */
+.filter-buttons {
+  background-color: var(--secondary-background-color);
+  color: #212121;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.filter-buttons:hover,
+.filter-buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-title-color);
+}
+/* список проектів портфоліо */
+.examples-link:hover,
+.examples-link:focus {
+  background-color: var(--accent-color);
+}
+
+.examples-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.examples-type {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.examples-information {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  /* колір фону, щоб було видно текс */
+  background-color: var(--accent-color);
+}
