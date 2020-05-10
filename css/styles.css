@@ -207,11 +207,6 @@ a {
   color: var(--secondary-title-color);
 }
 /* список проектів портфоліо */
-.examples-link:hover,
-.examples-link:focus {
-  background-color: var(--accent-color);
-}
-
 .examples-name {
   font-weight: 700;
   font-size: 18px;
